@@ -38,6 +38,9 @@ $padding: 20px;
             display: flex;
             gap: 5rem;
             align-items: center;
+            .dark_mode{
+                display: flex;
+            }
         }
     }
 }
