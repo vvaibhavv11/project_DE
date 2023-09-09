@@ -75,5 +75,16 @@ h1 {
 }
 
 .second_para {
-    padding: 50px 600px 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    .second_para1{
+        padding: 50px 600px 50px 100px;
+        .p2{
+            font-weight: 800;
+        }
+    }
+    .second_image{
+        align-content: right;
+        padding: 50px 100px 50px 0px;
+    }
 }
