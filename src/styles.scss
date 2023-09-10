@@ -15,22 +15,16 @@ $padding: 20px;
     font-size: x-large;
     background: linear-gradient(to right, #0b415a, #89cff0);
     //border-radius: 30px;
-    .top_dock_right {
+    .top_dock_left {
         //margin: 30px;
-        background-color: #89cff0;
-        background-clip: text;
-        color: transparent;
         font-weight: 900;
         font-size: 50px;
-        //font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     }
 
-    .top_dock_left {
+    .top_dock_right {
         //font-family: 'Poppins';
+        color: #0b415a;
         margin: 30px;
-        background-color: #0b415a;
-        background-clip: text;
-        color: transparent;
         align-self: center;
 
         ul {
@@ -38,9 +32,6 @@ $padding: 20px;
             display: flex;
             gap: 5rem;
             align-items: center;
-            .dark_mode{
-                display: flex;
-            }
         }
     }
 }
