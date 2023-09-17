@@ -21,6 +21,10 @@
             display: flex;
             gap: 5rem;
             align-items: center;
+            .anchor{
+                text-decoration: none;
+                color: inherit;
+            }
         }
     }
 }
