@@ -2,36 +2,8 @@
 $padding: 20px;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins';
-}
-
-.navi_bar {
-    display: flex;
-    justify-content: space-between;
-    font-size: x-large;
-    background: linear-gradient(to right, #0b415a, #89cff0);
-    //border-radius: 30px;
-    .top_dock_left {
-        //margin: 30px;
-        font-weight: 900;
-        font-size: 50px;
-    }
-
-    .top_dock_right {
-        //font-family: 'Poppins';
-        color: #0b415a;
-        margin: 30px;
-        align-self: center;
-
-        ul {
-            list-style: none;
-            display: flex;
-            gap: 5rem;
-            align-items: center;
-        }
-    }
+    font-family: sans-serif;
 }

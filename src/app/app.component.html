@@ -1,33 +1,19 @@
-<div>
-    <div>
-        <h1>Image to Text Converter</h1>
-            <p class="p1">We present an online OCR(Optical Character Recongnition) service to extract text from image. Upload
-            photo to our image to text converter, click on submit and get your text file instantly.</p>
-    </div>
-</div>
-<section class="pre_main">
-<div class="main">
-    <div class="main_title">Drag and Drop or Seletct image</div>        
-    <label for="file" class="main_file">
-        <span class="p2">select file</span>
-    </label>
-    <input type="file" name="file" id="file" hidden accept=".jpg,.jprg,.gif,.png,.bmp,.jpr,.jif,.jfif,.jfi,.webp,.tiff,.tif" multiple>    
-    <div class="main_text">Any file size</div>
-</div>            
-</section>
-<div class="image">
-    <img src="../assets/images/OCR-workflow-blue-MK-edit-2.png" width="50%">
-</div>
-<div class="second_para">
-    <div class="second_para1">
-        <p class="p2">How does Image to text converter work?</p>
-        <p class="p3"><br>you don't have to do much to copy text from an image if you don't know how to convert a jpeg or png to text. Simply follow these steps.<br><br>
 
-        i. Upload your image or drag & drop it. Or enter the URL if you have a link to the image.<br>
-        ii. Hit the Submit button.<br>
-        iii. Copy the text to the clipboard or save it as a document.</p>
-    </div>
-    <div class="second_image">
-        <img src="../assets/images/free-apps.png" >
-    </div>
+<div class="navi_bar">
+   <div class="top_dock_left">  <a
+     routerLink="/scantextify"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page"><img src="../assets/images/2023-09-05_13-26.png" alt="logo: ScanTextify"></a></div>
+   <div class="top_dock_right">
+       <ul>
+           <li>About Us</li>
+           <li>Product</li>
+           <li>Support</li>
+           <li>  <a
+     routerLink="/login"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page">Login</a></li>
+       </ul>
+   </div>
 </div>
+      <router-outlet></router-outlet>
