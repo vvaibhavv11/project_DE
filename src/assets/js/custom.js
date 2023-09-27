@@ -1,15 +1,13 @@
-var x = document.getElementById("login");
-var y = document.getElementById("register");
-var z = document.getElementsByClassName("btn");
+let wrapper = document.querySelector('.wrapper'),
+    signUpLink = document.querySelector('.link .signup-link'),
+    signInLink = document.querySelector('.link .signin-link');
 
-function register(){
-   x.style.left = "-400px";
-   y.style.left = "50px";
-   z.style.left = "110px";
-}
+signUpLink.addEventListener('click', () => {
+    wrapper.classList.add('animated-signin');
+    wrapper.classList.remove('animated-signup');
+});
 
-function login(){
-   x.style.left = "50px";
-   y.style.left = "450px";
-   z.style.left = "0";
-}
+signInLink.addEventListener('click', () => {
+    wrapper.classList.add('animated-signup');
+    wrapper.classList.remove('animated-signin');
+});

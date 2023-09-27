@@ -58,6 +58,11 @@ h1 {
                 scale: 1 1;
             }
         }
+        .output_text_class{
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+        }
 
         .main_text {
             padding: $padding;
